@@ -1,0 +1,672 @@
+
+.line-total {
+  border-top: 2px solid black;
+}
+
+.bt-cerrar-modal {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  background-color: #c0392b;
+  padding: 2px 6px 2px 3px;
+  border-radius: 15px;
+  color: white;
+  font-weight: normal;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.button-pointer{
+  cursor: pointer;
+}
+
+.bt-pagar {
+  margin-top: -5px;
+  margin-left: -10px;
+  background-color: #1890ff;
+  padding: 2px;
+  border-radius: 15px;
+  color: white;
+  font-weight: normal;
+  font-size: 14px;
+  width: 65px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.PhotoView__PhotoMask{
+  background-color: white;
+}
+
+@media (min-width: 768px){
+
+  body {
+   font-family: sans-serif !important;
+   overflow-x: hidden !important;
+  }
+
+  .img_programa_colaboradores{
+    width: 80%;
+    padding: 20;
+    border-radius: 20px;
+  }
+
+  .descripcion_programa_colaboradores{
+    width: 80%;
+    padding-top: 20px;
+  }
+
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    text-align: center;
+    background:#F0F3F4;
+  }
+
+
+  .HomeBottom{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    background-color: black;
+  }
+
+  .HomeBottomSeccion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 33.33%;
+    height: 100%;
+    background-color: transparent;
+    padding: 20px;
+  }
+
+  .AppBuscadorRapido{
+    height: 330px;
+    width: 100vw;
+    background: #EDEDED;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    align-items: center;
+    overflow-x: auto;
+  }
+
+  .ImgGraciasCompra{
+    height: 150px;
+    width: auto;
+  }
+
+  .ImgDelivery{
+    height: 150px;
+    width: auto;
+  }
+
+  .OffsetButtonWhatsapp{
+    border: none;
+    outline: none;
+    background: transparent;
+    position: absolute;
+  }
+
+  .OffsetButtonWhatsappA{
+    position: absolute;
+    z-index: 1;
+    top: 90vh;
+    left: 92vw;
+  }
+
+  .OffsetButtonPagar{
+    position: absolute;
+    z-index: 10000;
+    top: 91vh;
+    left: 1vw;
+  }
+
+  .OffsetFlotante{
+    position: absolute;
+    z-index: 10000;
+    top: 60vh;
+    left: 86vw;
+  }
+
+  .HomeBottomSeccionA{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    padding: 20px;
+    font-size: 13px;
+    text-align: left;
+  }
+
+  .HomeBottomSeccionB{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    padding: 20px;
+    font-size: 13px;
+    text-align: left;
+    word-wrap: break-word;
+  }
+
+  .HomeBottomSeccionC{
+    display: none;
+  }
+
+  .btCerrarBusqueda{
+    position: absolute;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #C0392B;
+    border-radius: 15px;
+    padding-left: 3px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    line-height: 0;
+    margin-left: 5px;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 5px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .ContenedorImgBannerInicio{
+    width: 98%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+  .ContenedorBannerInicio{
+    width: 98%;
+    margin-top: 10px;
+    text-align: left;
+  }
+
+  .BannercontenedorCatalogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 15px;
+    background-color: #E5E7E9;
+  }
+
+
+  .BannercontenedorCatalogoIn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+  }
+
+  .BannerContenedorInfoCatalogo{
+    /* text-align: left; */
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  .modal_bienvenida{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 93%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    /* -webkit-box-shadow: 0px 1px 7px -2px rgba(0,0,0,0.83);
+    box-shadow: 0px 1px 7px -2px rgba(0,0,0,0.83); */
+  }
+
+  .ImgLogoBienvenida{
+    height: 70px;
+    width: auto;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+
+
+
+
+
+  .UtilizarCuponProductosApp{
+    width: 100%;
+    min-width: 100%;
+    /* max-height: 300px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    /* overflow-y: auto; */
+    overflow-x: hidden;
+    margin-bottom: 10px;
+  }
+  .CuponItemProducto{
+    display: flex;
+    flex-direction: row;
+    width: 97%;
+    min-width: 97%;
+    padding: 10px;
+    box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.44);
+    /* margin-top: 0px; */
+    cursor: pointer;
+    background: white;
+    margin: 5px;
+    border-radius: 10px;
+  }
+
+  .CuponImgItem{
+    padding: 5px;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background-size: cover;
+    transition: all .5s;
+  }
+
+  .CuponItemInfo{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-left: 5px;
+  }
+
+  .CuponTituloApp{
+    font-size: 14px;
+    color: black;
+  }
+
+  .CuponItemPrecio{
+    width: 30%;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+    padding-left: 3px;
+    padding-right: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255.44);
+  }
+
+  .CuponTituloVariantes{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    line-height: 1.2;
+  }
+
+  .PedidoCompletadoTitle{
+    color:white;
+    background-color: #89BD2A;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+
+}
+
+/*------------------------------------------------*/
+
+@media (min-width: 320px) and (max-width: 768px){
+
+  body {
+   font-family: sans-serif !important;
+   overflow-x: hidden !important;
+  }
+
+  .img_programa_colaboradores{
+    width: 90%;
+    padding: 20;
+    border-radius: 10px;
+  }
+
+  .descripcion_programa_colaboradores{
+    width: 80%;
+    padding-top: 20px;
+  }
+
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    text-align: center;
+    background:#F0F3F4;
+  }
+
+
+  .HomeBottom{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    background-color: black;
+    padding-bottom: 50px;
+  }
+
+  .HomeBottomSeccionA{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: white;
+    width: 40%;
+    height: 100%;
+    background-color: transparent;
+    font-size: 12px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  .HomeBottomSeccionB{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: white;
+    width: 60%;
+    height: 100%;
+    background-color: transparent;
+    padding: 20px;
+    font-size: 11px;
+    text-align: left;
+  }
+
+  .HomeBottomSeccionC{
+    display: none;
+  }
+
+  .AppBuscadorRapido{
+    height: 300px;
+    width: 100vw;
+    background: #EDEDED;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    align-items: center;
+    overflow-x: auto;
+  }
+
+  .ImgGraciasCompra{
+    height: 130px;
+    width: auto;
+  }
+
+  .ImgDelivery{
+    height: 70px;
+    width: auto;
+  }
+
+
+  .AppSearchInputDiv{
+    min-width: 100vw;
+    background: white;
+    padding: 5px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .AppSearchInput{
+    width: 50vw;
+  }
+
+  .OffsetButtonWhatsapp{
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+
+  .OffsetButtonWhatsappA{
+    position: absolute;
+    z-index: 1;
+    top: 70vh;
+    left: 75vw;
+  }
+
+  .OffsetButtonPagar{
+    position: absolute;
+    z-index: 10000;
+    left: 5vw;
+    margin-top: 100px;
+  }
+
+  .btCerrarBusqueda{
+    position: absolute;
+    right: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #C0392B;
+    border-radius: 15px;
+    padding-left: 3px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    line-height: 0;
+    margin-left: 5px;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: -5px;
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+
+
+  .ContenedorImgBannerInicio{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+  }
+
+  .ContenedorBannerInicio{
+    width: 100%;
+    /* padding: 5px; */
+    text-align: left;
+    font-size: 12px;
+  }
+
+  .BannercontenedorCatalogo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 15px;
+    background-color: #E5E7E9;
+  }
+
+
+  .BannercontenedorCatalogoIn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+  }
+
+  .BannerContenedorInfoCatalogo{
+    /* text-align: left; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  .modal_bienvenida{
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: flex-start; */
+    width: 100%;
+    max-height: 95%;
+    flex:1;
+    /* height: 93%; */
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 0px;
+    padding-top: 0px;
+    /* -webkit-box-shadow: 0px 1px 7px -2px rgba(0,0,0,0.83);
+    box-shadow: 0px 1px 7px -2px rgba(0,0,0,0.83); */
+  }
+
+  .textoBannerInfoo{
+    font-size: 12px;
+  }
+
+  .ImgLogoBienvenida{
+    height: 37px;
+    width: auto;
+    /* margin-top: -5px; */
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .UtilizarCuponProductosApp{
+    width: 100%;
+    min-width: 100%;
+    /* max-height: 300px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px;
+    /* overflow-y: auto; */
+    overflow-x: hidden;
+    margin-bottom: 10px;
+  }
+  .CuponItemProducto{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-width: 100%;
+    padding: 10px;
+    box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.44);
+    /* margin-top: 0px; */
+    cursor: pointer;
+    background: white;
+    margin: 5px;
+    border-radius: 10px;
+  }
+
+  .CuponImgItem{
+    padding: 5px;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background-size: cover;
+    transition: all .5s;
+  }
+
+  .CuponItemInfo{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-left: 5px;
+  }
+
+  .CuponTituloApp{
+    font-size: 11px;
+    color: black;
+  }
+
+  .CuponItemPrecio{
+    width: 30%;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+    padding-left: 3px;
+    padding-right: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255.44);
+  }
+
+  .CuponTituloVariantes{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    line-height: 1.2;
+  }
+
+  .PedidoCompletadoTitle{
+    color:white;
+    background-color: #89BD2A;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+
+
+
+}
